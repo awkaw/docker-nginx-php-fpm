@@ -1,4 +1,4 @@
-ARG PHP_BASEIMAGE_VERSION=8.0.2
+ARG PHP_BASEIMAGE_VERSION=8.1
 FROM php:${PHP_BASEIMAGE_VERSION}-fpm-alpine
 
 LABEL maintainer="Constantine Karnaukhov <genteelknight@gmail.com>"
